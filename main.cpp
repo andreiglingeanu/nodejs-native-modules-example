@@ -43,8 +43,6 @@ void NativePrintf(const v8::FunctionCallbackInfo<v8::Value>& args)
     std::cout << std::endl;
     std::cout << "-------------";
     std::cout << std::endl;
-
-    // printf("%d\n", number);
 }
 
 void Initialize(v8::Local<v8::Object> exports)
